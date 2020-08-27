@@ -11,4 +11,4 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.2.4
         with:
           project: GridTools
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.ACCESS_TOKEN_PROJECT_AUTOMATION }}
